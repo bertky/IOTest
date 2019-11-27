@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/robert/Projects/pwsh/IOTest/src/IOTest/IOTest.csproj": {}
+  },
+  "projects": {
+    "/home/robert/Projects/pwsh/IOTest/src/IOTest/IOTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/robert/Projects/pwsh/IOTest/src/IOTest/IOTest.csproj",
+        "projectName": "IOTest",
+        "projectPath": "/home/robert/Projects/pwsh/IOTest/src/IOTest/IOTest.csproj",
+        "packagesPath": "/home/robert/.nuget/packages/",
+        "outputPath": "/home/robert/Projects/pwsh/IOTest/src/IOTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/robert/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
