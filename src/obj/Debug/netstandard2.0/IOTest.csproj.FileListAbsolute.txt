@@ -1,0 +1,3 @@
+/home/robert/Projects/pwsh/IOTest/src/obj/Debug/netstandard2.0/IOTest.csprojAssemblyReference.cache
+/home/robert/Projects/pwsh/IOTest/src/obj/Debug/netstandard2.0/IOTest.AssemblyInfoInputs.cache
+/home/robert/Projects/pwsh/IOTest/src/obj/Debug/netstandard2.0/IOTest.AssemblyInfo.cs
