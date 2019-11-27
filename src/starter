@@ -4,7 +4,7 @@
     namespace IOTest
     {
         [Cmdlet( VerbsDiagnostic.Resolve , "IOTest")]
-        public class ResolveMyCmdletCommand : PSCmdlet
+        public class UITestCmdletCommand : PSCmdlet
         {
             [Parameter(Position=0)]
             public Object InputObject { get; set; }
