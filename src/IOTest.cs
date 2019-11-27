@@ -8,7 +8,7 @@ using System.Management.Automation;
 namespace IOTest
 {
     [Cmdlet( VerbsDiagnostic.Resolve , "IOTest")]
-    public class ResolveIOTestCommand : PSCmdlet
+    public class IOTestCommand : PSCmdlet
     {
         [Parameter(Position=0)]
         [ValidateNotNullOrEmpty]
@@ -32,6 +32,7 @@ namespace IOTest
 		        			while ((line = sr.ReadLine()) != null)
 		        			{
 		        				sw.WriteLine(line);
+		        				Console.WriteLine(line);
 		        			}
 		        		}
 		        	}
