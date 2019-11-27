@@ -6,3 +6,6 @@
 /home/robert/Projects/pwsh/IOTest/src/bin/Debug/netstandard2.0/IOTest.pdb
 /home/robert/Projects/pwsh/IOTest/src/obj/Debug/netstandard2.0/IOTest.dll
 /home/robert/Projects/pwsh/IOTest/src/obj/Debug/netstandard2.0/IOTest.pdb
+/home/robert/Projects/pwsh/IOTest/output/IOTest/bin/IOTest.deps.json
+/home/robert/Projects/pwsh/IOTest/output/IOTest/bin/IOTest.dll
+/home/robert/Projects/pwsh/IOTest/output/IOTest/bin/IOTest.pdb

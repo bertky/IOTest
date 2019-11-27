@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "IOTest/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "PowerShellStandard.Library": "3.0.0-preview-02"
+        },
+        "runtime": {
+          "IOTest.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "PowerShellStandard.Library/3.0.0-preview-02": {
+        "runtime": {
+          "lib/netstandard2.0/System.Management.Automation.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IOTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "PowerShellStandard.Library/3.0.0-preview-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z5F4aH7TU4E7jziYYWPQ9dXJ+X+/ml5Kc1V95ZpiAdr14tGy31s+cJw4vLWNh2IQa13XjqSd1Ehd4vr5YEOP8w==",
+      "path": "powershellstandard.library/3.0.0-preview-02",
+      "hashPath": "powershellstandard.library.3.0.0-preview-02.nupkg.sha512"
+    }
+  }
+}
